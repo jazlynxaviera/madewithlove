@@ -238,3 +238,59 @@ body {
   font-size: 0.85rem;
   color: #725d68;
 }
+
+/* Custom Variable Warna Soft Pink */
+:root {
+  --bg-main: #fff5f7;
+  --pink-primary: #f77f98;
+  --pink-soft: #ffb3c6;
+  --pink-light: #ffe5ec;
+  --pink-accent: #ff8fab;
+  --text-dark: #5c4a52;
+  --text-muted: #8c737f;
+}
+
+/* Base Style */
+body {
+  background-color: var(--bg-main) !important;
+  color: var(--text-dark);
+}
+
+/* Card & Box Style */
+.card-pink {
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 1px solid var(--pink-light);
+  border-radius: 20px;
+  box-shadow: 0 8px 25px -5px rgba(255, 179, 198, 0.3);
+}
+
+/* Tombol Utama Pink */
+.btn-pink {
+  background-color: var(--pink-primary) !important;
+  color: white !important;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px -5px rgba(247, 127, 152, 0.4);
+  transition: all 0.3s ease;
+}
+
+.btn-pink:hover {
+  background-color: #ff6b8b !important;
+  transform: translateY(-2px);
+}
+
+/* Running Text Bar Top */
+.top-bar-pink {
+  background-color: var(--pink-soft);
+  color: white;
+}
+
+/* Warna Teks & Highlight */
+.text-pink-main {
+  color: var(--pink-primary) !important;
+}
+
+.badge-pink {
+  background-color: var(--pink-light);
+  color: var(--pink-primary);
+  border: 1px solid var(--pink-soft);
+}
